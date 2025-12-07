@@ -24,4 +24,5 @@ const Button = ({ buttonLabel, buttonSize, buttonBackgroundColor, action }: Butt
     </button>
   )
 }
+
 export default Button
