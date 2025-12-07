@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import Button from '../common/Button'
+import Link from "next/link";
+import Button from "../common/Button";
 
 const Header: React.FC = () => {
   return (
@@ -9,13 +9,20 @@ const Header: React.FC = () => {
           Splash App
         </Link>
 
+        {/* Button Group */}
         <div className="flex gap-4">
-          <Button buttonLabel="Sign In" buttonBackgroundColor="red" />
-          <Button buttonLabel="Sign Up" buttonBackgroundColor="blue" />
+          <Button
+            buttonLabel="Sign In"
+            buttonBackgroundColor="red"
+          />
+          <Button
+            buttonLabel="Sign Up"
+            buttonBackgroundColor="blue"
+          />
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
