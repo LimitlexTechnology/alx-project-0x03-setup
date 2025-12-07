@@ -1,16 +1,12 @@
-import { ReactNode } from "react";
-
 export interface PageRouteProps {
-    pageRoute: string;
+  pageRoute: string;
 }
-
 export interface ButtonProps {
-    buttonLabel: string;
-    buttonSize?: string;
-    buttonBackgroundColor?: "red" | "blue" | "orange" | "green";
-    action?: () => void;
+  buttonLabel: string;
+  buttonSize?: string;
+  buttonBackgroundColor?: "red" | "blue" | "orange" | "green";
+  action?: () => void;
 }
-
 export interface LayoutProps {
-    children: ReactNode;
+  children: ReactNode;
 }
