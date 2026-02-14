@@ -1,0 +1,18 @@
+/* Global styles for ALX Project 0x04 */
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans", "Liberation Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-optical-sizing: auto;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
